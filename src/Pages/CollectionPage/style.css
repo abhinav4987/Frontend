@@ -1,0 +1,50 @@
+.collectionPage {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: calc(100% - 300px);
+    background-color: rgb(43, 42, 42);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.CollectionPageHeader {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+
+
+.albumSearch {
+
+    position: absolute !important;
+    top: 2rem !important;
+    right: 2rem !important;
+
+    width: 14rem;
+    border-radius:5px;
+    border: none !important;
+    outline: none !important;
+    background-color: rgb(105, 104, 104);
+    font-size: 1rem;
+
+}
+
+.addAlbum {
+    position: absolute !important;
+    top: 2rem !important;
+    right: 18rem !important;
+    background-color: rgb(105, 104, 104) !important;
+}
+
+.albumDisplay {
+    background-color: rgb(43, 42, 42);
+}
+
+.imageItem {
+    cursor: pointer;
+}
